@@ -1,0 +1,22 @@
+
+This page displays the source code for Age of Fable.
+ 
+It can be used for non-commercial projects, as long as you cite www.ageoffable.net as the source. For the exact license, see here.
+ 
+source code for header.txt
+
+
+source code for update.txt
+ 
+ 
+source code for credits.php
+
+source code for gallery.php
+
+source code for index.php
+
+source code for save.php
+
+source code for game.php
+
+

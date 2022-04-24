@@ -1,0 +1,96 @@
+body {
+  font-family: Myriad, Helvetica, Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 12pt;
+  background: #000;
+  color: #ffffff;
+  padding: 0pt;
+  margin: 0pt;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+table {
+  font-family: Myriad, Helvetica, Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 12pt;
+}
+
+A:link {
+  color: #8888ff;
+  TEXT-DECORATION: underline;
+}
+A:visited {
+  COLOR: #8888ff;
+  TEXT-DECORATION: underline;
+}
+A:hover {
+  COLOR: #ff7f24;
+  text-decoration: underline;
+}
+A:active {
+  COLOR: #ff7f24;
+  text-decoration: underline;
+}
+
+img {
+  border:2pt solid #888888;
+}
+
+.hidden {
+  display: none;
+  /*visibility: hidden;*/
+}
+
+.artclass {
+  max-width: 360px;
+}
+
+.saveBox {
+  clear: both;
+  font-size: 10pt;
+  border: 1pt solid #ccc;
+  padding: 10pt;
+  margin: 8pt;
+  border-radius: 1em;
+  background: #155115;
+  color: #FFF;
+}
+
+.actionBox {
+  width:  200pt;
+  float: left;
+  text-align: center;
+  border: 1pt solid #ccc;
+  padding: 5pt;
+  margin: 8pt;
+  border-radius: 1em;
+  background: #55F;
+  color: #FFFFFF;
+  TEXT-DECORATION: underline;
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14pt;
+}
+.actionBox A {
+  color: #FFFFFF;
+  TEXT-DECORATION: underline;
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14pt;
+}
+
+#h{
+  background: none repeat scroll 0 0 #062C65;
+  padding: 10pt;
+  border-bottom: 2pt solid #F59C24;
+}
+#c1 {
+  background: none repeat scroll 0 0 #000000;    overflow:hidden;
+  padding: 10pt;
+  border-bottom: 2pt solid #F59C24;
+}
+#c2 {
+  background: none repeat scroll 0 0 #000000;    float: left;     width: 240px;    overflow:hidden;
+  padding: 8pt;
+  border-right: 2pt solid #F59C24;
+}
+#c3 {
+  background: none repeat scroll 0 0 #202020;    float: left;     width: 380px;    overflow:hidden;
+  padding: 8pt;
+}
