@@ -2,7 +2,7 @@
 <?php
 @include "header.txt";
 ?>
-<div align="center"><img style="border:0px" src="http://www.apolitical.info/webgame/images/savegamelarge.gif"></div>
+<div align="center"><img style="border:0px" src="images/savegamelarge.gif"></div>
 <div>&nbsp</div>
 <div align="center"><b>TO SAVE YOUR GAME</b></div>
 <div>&nbsp</div>

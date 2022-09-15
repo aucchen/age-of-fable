@@ -1,9 +1,9 @@
  
 <?php
-@include "http://www.apolitical.info/webgame/header.txt";
+@include "header.txt";
 
 $line="<div>&nbsp</div>";
-$site="http://www.apolitical.info/webgame/images/";
+$site="images/";
 $startdiv="<div align=\"center\">";
 
 $artists=array (
@@ -221,7 +221,7 @@ $artists=array (
 );
 $artworks=211;
 
-print $startdiv."The following people have contributed to <a href=\"http://www.apolitical.info/webgame\" onMouseover=\"window.status='back to the starting page'; return true\">Age of Fable</a>:";
+print $startdiv."The following people have contributed to <a href=\"/\" onMouseover=\"window.status='back to the starting page'; return true\">Age of Fable</a>:";
 print $line;
 print $line;
 print $startdiv."<b>Your adventures were faithfully chronicled</div>";
@@ -243,7 +243,7 @@ for ($loop=1;$loop<=$artworks;$loop++) {
 if ($artists[$loop][1]<>"public" OR $artists[$loop][0]=="Peter Seckler" OR $artists[$loop][0]=="James Hutchings") {
 print "<td align=\"center\">";
 $name=$artists[$loop][0];
-print "<a href=\"http://www.apolitical.info/webgame/gallery?p=".$artists[$loop][2]."&a=".$artists[$loop][0]."&h=".$artists[$loop][1]."\" onMouseover=\"window.status='see a bigger version of this picture'; return true\">";
+print "<a href=\"/gallery.php?p=".$artists[$loop][2]."&a=".$artists[$loop][0]."&h=".$artists[$loop][1]."\" onMouseover=\"window.status='see a bigger version of this picture'; return true\">";
 print "<img style=\"border-color: #8888FF\" src=\"".$site.$artists[$loop][2]."-thumb.jpg\">";
 print "</a>";
 print "<br>";
@@ -293,7 +293,7 @@ $row=0;
 for ($loop=1;$loop<=$artworks;$loop++) {
 if ($artists[$loop][1]=="public" AND $artists[$loop][0]<>"Peter Seckler" AND $artists[$loop][0]<>"James Hutchings") {
 print "<td align=\"center\">";
-print "<a href=\"http://www.apolitical.info/webgame/gallery?p=".$artists[$loop][2]."&a=".$artists[$loop][0]."&h=public\" onMouseover=\"window.status='see a bigger version of this picture'; return true\">";
+print "<a href=\"/gallery.php?p=".$artists[$loop][2]."&a=".$artists[$loop][0]."&h=public\" onMouseover=\"window.status='see a bigger version of this picture'; return true\">";
 print "<img style=\"border-color: #8888FF\" src=\"".$site.$artists[$loop][2]."-thumb.jpg\">";
 print "</a>";
 print "<br>";
@@ -336,6 +336,6 @@ print $startdiv;
 <?php
 
 print $line;
-@include "http://www.apolitical.info/webgame/footer.txt";
+@include "footer.txt";
 ?>
  

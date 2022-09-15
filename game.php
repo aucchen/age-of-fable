@@ -1,7 +1,9 @@
  
 <?php
 @include "header.txt";
+// need this line to get the url params as variables
 extract($_GET); 
+
 $line="<div>&nbsp</div>";
 $startdiv="<div align=\"center\">";
 

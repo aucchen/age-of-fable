@@ -1,20 +1,21 @@
  
 <?php
 @include "header.txt";
+extract($_GET);
 
 $line="<div>&nbsp</div>";
-$site="http://www.apolitical.info/webgame/images/";
+$site="images/";
 $startdiv="<div align=\"center\">";
 
 print $startdiv."<img style=\"border-color:#888888\" src=\"".$site.$p.".jpg\"></div>";
 print $line;
 print $startdiv."Artwork ";
 if ($a=="Laura Pelick") {
-$a="<img src=\"http://www.apolitical.info/webgame/images/fallenlightsbanner.jpg\">";
+$a="<img src=\"images/fallenlightsbanner.jpg\">";
 }
 
 if ($a=="Steve Argyle") {
-print "by <a href=\"http://www.steveargyle.com\" target=\"_blank\"><img src=\"http://www.apolitical.info/webgame/images/steveargylebanner.jpg\"></a>";
+print "by <a href=\"http://www.steveargyle.com\" target=\"_blank\"><img src=\"images/steveargylebanner.jpg\"></a>";
 print $line;
 print $startdiv."Copyright <a href=\"http://www.alderac.com\" target=\"_blank\">Alderac Entertainment</a>";
 } elseif ($a=="David J. Stanley") {
@@ -36,9 +37,9 @@ print $startdiv."coloured by <a href=\"http://elfwood.lysator.liu.se/art/m/i/mis
 
 print "</div>";
 print $line;
-print $startdiv."As seen in the free online RPG <a href=\"http://www.apolitical.info/webgame\" onMouseover=\"window.status='play Age of Fable'; return true\">Age of Fable</a></div>";
+print $startdiv."As seen in the free online RPG <a href=\"/\" onMouseover=\"window.status='play Age of Fable'; return true\">Age of Fable</a></div>";
 print $line;
-print $startdiv."See all the artwork from Age of Fable on the <a href=\"http://www.apolitical.info/webgame/credits.php\" onMouseover=\"window.status='author and artist credits'; return true\">credits page</a></div>";
+print $startdiv."See all the artwork from Age of Fable on the <a href=\"credits.php\" onMouseover=\"window.status='author and artist credits'; return true\">credits page</a></div>";
 print $line;
 print $startdiv."This image ";
 if ($a=="Peter Seckler") {
