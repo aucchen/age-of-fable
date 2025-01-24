@@ -49,7 +49,7 @@ $class=array ("clown","talking cat","wizard","scoundrel","bard","knight","nomad"
 // unpack $rolls to reveal character's stats
 $stats=array();
 for ($loop=1;$loop<=$attnum;$loop++) {
-$z=ord($rolls{$loop-1})-64;
+$z=ord($rolls[$loop-1])-64;
 if ($z>26) {
 $z=$z-6;
 }
@@ -170,7 +170,7 @@ $keywords=array();
 $manywords=350; //how many keywords are in the game.
 
 for ($loop=1;$loop<=$manywords;$loop++) {
-if ($world{$loop-1}=="!") {
+if ($world[$loop-1]=="!") {
 $keywords[$loop]=1;
 }
 }
@@ -190,7 +190,7 @@ $blessings[$sbless-1]="2";
 
 $bless=array();
 for ($loop=1;$loop<=($obless+$attnum);$loop++) {
-$bless[$loop]=ord($blessings{$loop-1})-49;
+$bless[$loop]=ord($blessings[$loop-1])-49;
 }
 
 // meanings of keywords:
